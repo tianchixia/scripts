@@ -86,6 +86,7 @@ name_chinese=(
 gen_pt_pin_array() {
   local envs=$(eval echo "\$JD_COOKIE")
   local array=($(echo $envs | sed 's/&/ /g'))
+  user_sum="${#array[*]}"
   local tmp1 tmp2 i pt_pin_temp
   for i in "${!array[@]}"; do
     pt_pin_temp=$(echo ${array[i]} | perl -pe "{s|.*pt_pin=([^; ]+)(?=;?).*|\1|; s|%|\\\x|g}")
@@ -219,7 +220,4 @@ export_all_codes() {
     done
 }
 
-log_time=$(date "+%Y-%m-%d-%H-%M-%S")
-log_path="$dir_code/$log_time.log"
-make_dir "$dir_code"
-export_all_codes | perl -pe "{s|京东种豆|种豆|; s|crazyJoy任务|疯狂的JOY|}" | tee $log_path
+export_all_codes | perl -pe "{s|京东种豆|种豆|; s|crazyJoy任务|疯狂的JOY|}"
