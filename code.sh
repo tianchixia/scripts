@@ -44,7 +44,7 @@ name_js=(
   panghu999_jd_scripts_jd_jdzz
   panghu999_jd_scripts_jd_crazy_joy
   panghu999_jd_scripts_jd_jxnc
-  panghu999_jd_scripts_jd_bookshop
+  Wenmoux_scripts_wen_chinnkarahoi_jd_bookshop
   panghu999_jd_scripts_jd_cash
   panghu999_jd_scripts_jd_sgmh
   panghu999_jd_scripts_jd_cfd
