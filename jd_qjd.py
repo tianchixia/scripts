@@ -13,6 +13,9 @@ update: 2021.7.4 08:36
 
 '''
 
+*/
+const $ = new Env('全民抢京豆（7.2-7.15');
+
 #ck 优先读取【JDCookies.txt】 文件内的ck  再到 ENV的 变量 JD_COOKIE='ck1&ck2' 最后才到脚本内 cookies=ck
 cookies = ''
 qjd_zlzh = ['zhanxiachi', 'wdNMhNkhpbxadIq', 'jd_6f51a0079f9d8', 'jd_5359c5f7264b6', 'jd_5804458e998d3', 'jd_6fc41371b745a']
