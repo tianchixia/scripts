@@ -19,7 +19,7 @@ qjd_zlzh = ['zhanxiachi', 'wdNMhNkhpbxadIq', 'jd_6f51a0079f9d8', 'jd_5359c5f7264
 
 # 建议调整一下的参数
 # UA 可自定义你的，注意格式: jdapp;iPhone;10.0.4;14.6;5ef616931169f3d55f67ca70320c47bed13a473e;network/4g;model/iPhone11,6;addressid/137802912;appBuild/167707;jdSupportDarkMode/0;Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1
-UserAgent = ''
+UserAgent = 'jdapp;iPhone;10.0.4;14.6;5ef616931169f3d55f67ca70320c47bed13a473e;network/4g;model/iPhone11,6;addressid/137802912;appBuild/167707;jdSupportDarkMode/0;Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1'
 # 限制速度 （秒）
 sleepNum = 0.1
 
