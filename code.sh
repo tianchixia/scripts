@@ -40,7 +40,7 @@ name_js=(
   panghu999_jd_scripts_jd_pet
   panghu999_jd_scripts_jd_plantBean
   raw_tcx_dreamFactory
-  panghu999_jd_scripts_jd_jdfactory
+  raw_tcx_jdfactory
   panghu999_jd_scripts_jd_jdzz
   panghu999_jd_scripts_jd_crazy_joy
   panghu999_jd_scripts_jd_jxnc
