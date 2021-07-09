@@ -39,8 +39,8 @@ name_js=(
   panghu999_jd_scripts_jd_fruit
   panghu999_jd_scripts_jd_pet
   panghu999_jd_scripts_jd_plantBean
-  raw_tcx_dreamFactory
-  raw_tcx_jdfactory
+  tianchixia_scripts_tcx_dreamFactory
+  tianchixia_scripts_tcx_jdfactory
   panghu999_jd_scripts_jd_jdzz
   panghu999_jd_scripts_jd_crazy_joy
   panghu999_jd_scripts_jd_jxnc
