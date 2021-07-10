@@ -39,12 +39,12 @@ name_js=(
   panghu999_jd_scripts_jd_fruit
   panghu999_jd_scripts_jd_pet
   panghu999_jd_scripts_jd_plantBean
-  tianchixia_scripts_tcx_dreamFactory
-  tianchixia_scripts_tcx_jdfactory
+  task tianchixia_scripts_tcx_dreamFactory
+  panghu999_jd_scripts_jd_jdfactory
   panghu999_jd_scripts_jd_jdzz
   panghu999_jd_scripts_jd_crazy_joy
   panghu999_jd_scripts_jd_jxnc
-  Wenmoux_scripts_wen_chinnkarahoi_jd_bookshop
+  task tianchixia_scripts_tcx_jd_bookshop
   panghu999_jd_scripts_jd_cash
   panghu999_jd_scripts_jd_sgmh
   panghu999_jd_scripts_jd_cfd
