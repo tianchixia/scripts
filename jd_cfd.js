@@ -1,7 +1,9 @@
 /*
 
-cron 0 * * * * jd_cfd.js
+cron 10 * * * * jd_cfd.js
  */
+
+const $ = new Env('财富岛');
 
 const {format} = require('date-fns');
 const axios = require('axios');
