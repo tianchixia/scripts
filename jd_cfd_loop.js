@@ -1,8 +1,8 @@
 /*
 
-cron 0 * * * * jd_cfd_loop.js
+cron 08 * * * * jd_cfd_loop.js
  */
-
+const $ = new Env('财富岛热气球');
 const {format} = require('date-fns');
 const axios = require('axios');
 const USER_AGENT = require('./USER_AGENTS').USER_AGENT;
