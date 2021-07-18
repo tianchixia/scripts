@@ -47,7 +47,7 @@ name_js=(
   tianchixia_scripts_tcx_jd_bookshop
   tianchixia_scripts_tcx_cash
   tianchixia_scripts_jd_sgmh
-  tianchixia_scripts_tcx_cfd
+  tianchixia_scripts_jd_cfd
   jd_health
 )
 
