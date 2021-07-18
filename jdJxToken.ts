@@ -5,14 +5,14 @@
  */
 let Jxtoken = [
   {
-    strPgUUNum: "",
-    strPgtimestamp: "",
-    strPhoneID: ""
+    strPgUUNum: "49be248850d2f17ae8fa2b2e499ef2a2",
+    strPgtimestamp: "1626624206722",
+    strPhoneID: "4d3ca31a355b1bd1253a8ac10a060f885185cbb2"
   },
   {
-    strPgUUNum: "",
-    strPgtimestamp: "",
-    strPhoneID: ""
+    strPgUUNum: "4c1e2ca1afdc4893959f29e81392813c",
+    strPgtimestamp: "1626624637813",
+    strPhoneID: "c5d30c7a5363fb63c4202e8292d30fbff07ff655"
   },
   {
     strPgUUNum: "1e41d0ea8c1a9306ce8bd26241287b81",
