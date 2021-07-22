@@ -5,6 +5,7 @@ dir_shell=/ql/shell
 . $dir_shell/share.sh
 
 env_name=(
+  JDCFD_SHARECODES
   FRUITSHARECODES
   PETSHARECODES
   PLANT_BEAN_SHARECODES
@@ -16,10 +17,10 @@ env_name=(
   BOOKSHOP_SHARECODES
   JD_CASH_SHARECODES
   JDSGMH_SHARECODES
-  JDCFD_SHARECODES
   JDHEALTH_SHARECODES
 )
 var_name=(
+  ForOtherCfd
   ForOtherFruit
   ForOtherPet
   ForOtherBean
@@ -31,11 +32,11 @@ var_name=(
   ForOtherBookShop
   ForOtherCash
   ForOtherSgmh
-  ForOtherCfd
   ForOtherHealth
 )
 
 name_js=(
+  tianchixia_scripts_tcx_cfd
   tianchixia_scripts_jd_fruit
   jd_pet
   tianchixia_scripts_jd_plantBean
@@ -47,11 +48,11 @@ name_js=(
   tianchixia_scripts_tcx_jd_bookshop
   tianchixia_scripts_tcx_cash
   tianchixia_scripts_jd_sgmh
-  tianchixia_scripts_jd_cfd
   jd_health
 )
 
 name_config=(
+  Cfd
   Fruit
   Pet
   Bean
@@ -63,11 +64,11 @@ name_config=(
   BookShop
   Cash
   Sgmh
-  Cfd
   Health
 )
 
 name_chinese=(
+  京喜财富岛
   东东农场
   东东萌宠
   京东种豆得豆
@@ -79,7 +80,6 @@ name_chinese=(
   口袋书店
   签到领现金
   闪购盲盒
-  京喜财富岛
   东东健康社区
 )
 
