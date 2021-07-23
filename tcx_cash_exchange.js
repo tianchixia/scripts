@@ -10,6 +10,7 @@ let cookiesArr = []
  let exchangeAccounts = {
      "zhanxiachi": 10,//十元
      "wdNMhNkhpbxadIq": 10,//十元
+     "jd_6f51a0079f9d8": 10,//十元
  }
 
 !(async () => {
