@@ -177,7 +177,7 @@ async function userCashOutState(type = true) {
               if (data.ddwUsrTodayGetRich >= data.ddwTodayTargetUnLockRich) {
                 nowTimes = new Date(new Date().getTime() + new Date().getTimezoneOffset() * 60 * 1000 + 8 * 60 * 60 * 1000)
                 if (nowTimes.getHours() >= 0 && nowTimes.getHours() < 12) {
-                  data.UsrCurrCashList = data.UsrCurrCashList.filter((x) => x.ddwMoney / 100 >= 1)
+                  data.UsrCurrCashList = data.UsrCurrCashList.filter((x) => x.ddwMoney / 100 >= 0.5)
                 } else if (nowTimes.getHours() === 12 && nowTimes.getMinutes() <= 5) {
                   data.UsrCurrCashList = data.UsrCurrCashList.filter((x) => x.ddwMoney / 100 >= 0.5)
                 }
