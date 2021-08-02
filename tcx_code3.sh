@@ -5,32 +5,27 @@ dir_shell=/ql/shell
 . $dir_shell/share.sh
 
 env_name=(
-  DREAM_FACTORY_SHARE_CODES
-  DDFACTORY_SHARECODES
-  JD_CASH_SHARECODES
+  JDSGMH_SHARECODES
+  JDHEALTH_SHARECODES
 )
 var_name=(
-  ForOtherDreamFactory
-  ForOtherJdFactory
-  ForOtherCash
+  ForOtherSgmh
+  ForOtherHealth
 )
 
 name_js=(
-  tianchixia_scripts_tcx_dreamFactory
-  jd_jdfactory
-  tianchixia_scripts_tcx_cash
+  tianchixia_scripts_jd_sgmh
+  tianchixia_scripts_jd_health
 )
 
 name_config=(
-  DreamFactory
-  JdFactory
-  Cash
+  Sgmh
+  Health
 )
 
 name_chinese=(
-  京喜工厂
-  东东工厂
-  签到领现金
+  闪购盲盒
+  东东健康社区
 )
 
 gen_pt_pin_array() {

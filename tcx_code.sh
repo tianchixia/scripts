@@ -36,7 +36,7 @@ var_name=(
 )
 
 name_js=(
-  tianchixia_scripts_tcx_cfd
+  tianchixia_scripts_jd_cfd
   tianchixia_scripts_jd_fruit
   jd_pet
   tianchixia_scripts_jd_plantBean
