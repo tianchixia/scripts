@@ -20,67 +20,19 @@ env_name=(
   JDHEALTH_SHARECODES
 )
 var_name=(
-  ForOtherCfd
-  ForOtherFruit
-  ForOtherPet
-  ForOtherBean
-  ForOtherDreamFactory
   ForOtherJdFactory
-  ForOtherJdzz
-  ForOtherJoy
-  ForOtherJxnc
-  ForOtherBookShop
-  ForOtherCash
-  ForOtherSgmh
-  ForOtherHealth
 )
 
 name_js=(
-  tianchixia_scripts_jd_cfd
-  tianchixia_scripts_jd_fruit
-  jd_pet
-  tianchixia_scripts_jd_plantBean
-  tianchixia_scripts_tcx_dreamFactory
   tianchixia_scripts_jd_jdfactory
-  tianchixia_scripts_jd_jdzz
-  jd_crazy_joy
-  jd_jxnc
-  tianchixia_scripts_tcx_jd_bookshop
-  tianchixia_scripts_tcx_cash
-  tianchixia_scripts_jd_sgmh
-  tianchixia_scripts_jd_health
 )
 
 name_config=(
-  Cfd
-  Fruit
-  Pet
-  Bean
-  DreamFactory
   JdFactory
-  Jdzz
-  Joy
-  Jxnc
-  BookShop
-  Cash
-  Sgmh
-  Health
 )
 
 name_chinese=(
-  京喜财富岛
-  东东农场
-  东东萌宠
-  京东种豆得豆
-  京喜工厂
   东东工厂
-  京东赚赚
-  crazyJoy任务
-  京喜农场
-  口袋书店
-  签到领现金
-  闪购盲盒
-  东东健康社区
 )
 
 gen_pt_pin_array() {
