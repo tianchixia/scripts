@@ -38,14 +38,14 @@ var_name=(
 name_js=(
   tianchixia_scripts_jd_cfd
   tianchixia_scripts_jd_fruit
-  jd_pet
+  tianchixia_scripts_jd_pet
   tianchixia_scripts_jd_plantBean
   tianchixia_scripts_tcx_dreamFactory
   tianchixia_scripts_jd_jdfactory
   tianchixia_scripts_jd_jdzz
   jd_crazy_joy
   jd_jxnc
-  tianchixia_scripts_tcx_jd_bookshop
+  jd_bookshop
   tianchixia_scripts_tcx_cash
   tianchixia_scripts_jd_sgmh
   tianchixia_scripts_jd_health

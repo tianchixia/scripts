@@ -5,21 +5,26 @@ dir_shell=/ql/shell
 . $dir_shell/share.sh
 
 env_name=(
+  PETSHARECODES
   DDFACTORY_SHARECODES
 )
 var_name=(
+  ForOtherPet
   ForOtherJdFactory
 )
 
 name_js=(
+  tianchixia_scripts_jd_pet
   tianchixia_scripts_jd_jdfactory
 )
 
 name_config=(
+  Pet
   JdFactory
 )
 
 name_chinese=(
+  东东萌宠
   东东工厂
 )
 
