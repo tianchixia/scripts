@@ -5,27 +5,22 @@ dir_shell=/ql/shell
 . $dir_shell/share.sh
 
 env_name=(
-  FRUITSHARECODES
-  PLANT_BEAN_SHARECODES
+  JDCFD_SHARECODES
 )
 var_name=(
-  ForOtherFruit
-  ForOtherBean
+  ForOtherCfd
 )
 
 name_js=(
-  tianchixia_scripts_jd_fruit
-  tianchixia_scripts_jd_plantBean
+  tianchixia_scripts_jd_cfd
 )
 
 name_config=(
-  Fruit
-  Bean
+  Cfd
 )
 
 name_chinese=(
-  东东农场
-  京东种豆得豆
+  京喜财富岛
 )
 
 gen_pt_pin_array() {

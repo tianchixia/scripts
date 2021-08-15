@@ -6,30 +6,25 @@ dir_shell=/ql/shell
 
 env_name=(
   DREAM_FACTORY_SHARE_CODES
-  DDFACTORY_SHARECODES
   JD_CASH_SHARECODES
 )
 var_name=(
   ForOtherDreamFactory
-  ForOtherJdFactory
   ForOtherCash
 )
 
 name_js=(
   tianchixia_scripts_tcx_dreamFactory
-  jd_jdfactory
   tianchixia_scripts_tcx_cash
 )
 
 name_config=(
   DreamFactory
-  JdFactory
   Cash
 )
 
 name_chinese=(
   京喜工厂
-  东东工厂
   签到领现金
 )
 
