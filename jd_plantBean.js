@@ -34,9 +34,9 @@ const JD_API_HOST = 'https://api.m.jd.com/client.action';
 //下面给出两个账号的填写示例（iOS只支持2个京东账号）
 let shareCodes = [ // IOS本地脚本用户这个列表填入你要助力的好友的shareCode
   //账号一的好友shareCode,不同好友的shareCode中间用@符号隔开
-  'xyymddxmc3bvziszihuuvwvgii@qghaclutvphgdel327b5wuxyrukecrdrpxylwoq@olmijoxgmjutyargmr4bkd5hsysrj7gbjao7iky@mlrdw3aw26j3xonksxpttpdmhug4uwnzwjzm2ji@olmijoxgmjutyjgwfitymv7fy5vbcscy6iyyezq@mlrdw3aw26j3xnuvo6vrwwsdyja4qr26e5ef2mq@imbvfmuclcyh7qpqi4hfqnqlj3eyjoizhxhjtbi@mlrdw3aw26j3x2hdr4ihlhknvl47akxlz2edaba@olmijoxgmjutywtdyff3f4ljsuhdbg77oxt5u4a',
+  'lsvcdmfjrraodhrrvhcfiz7iye@olmijoxgmjuty7323i6ijrv5tdhd32kefogty5i@gf2njfitdloxldekzam2flrji4@mq65ksgdrkobhiyvkoqfi7ff7i5ac3f4ijdgqji@wkmb7lejrmax2avk7bszvx7s74@4npkonnsy7xi3acvl3goi4ga5gpmpv2km4yj3di@rj7s6mzlk7uognpgua34bszhyf4cpqqtj5vfhta@olmijoxgmjutyif5p35uuja6gwp2ulsp2x6fjoi@dzfuhp3b2fz7mnj5ndxxqsradgg5bsrhuof2mbq',
   //账号二的好友shareCode,不同好友的shareCode中间用@符号隔开
-  'xyymddxmc3bvziszihuuvwvgii@qghaclutvphgdel327b5wuxyrukecrdrpxylwoq@olmijoxgmjutyargmr4bkd5hsysrj7gbjao7iky@mlrdw3aw26j3xonksxpttpdmhug4uwnzwjzm2ji@olmijoxgmjutyjgwfitymv7fy5vbcscy6iyyezq@mlrdw3aw26j3xnuvo6vrwwsdyja4qr26e5ef2mq@imbvfmuclcyh7qpqi4hfqnqlj3eyjoizhxhjtbi@mlrdw3aw26j3x2hdr4ihlhknvl47akxlz2edaba@olmijoxgmjutywtdyff3f4ljsuhdbg77oxt5u4a',
+  'lsvcdmfjrraodhrrvhcfiz7iye@olmijoxgmjuty7323i6ijrv5tdhd32kefogty5i@gf2njfitdloxldekzam2flrji4@mq65ksgdrkobhiyvkoqfi7ff7i5ac3f4ijdgqji@wkmb7lejrmax2avk7bszvx7s74@4npkonnsy7xi3acvl3goi4ga5gpmpv2km4yj3di@rj7s6mzlk7uognpgua34bszhyf4cpqqtj5vfhta@olmijoxgmjutyif5p35uuja6gwp2ulsp2x6fjoi@dzfuhp3b2fz7mnj5ndxxqsradgg5bsrhuof2mbq',
 ]
 let allMessage = ``;
 let currentRoundId = null;//本期活动id
@@ -89,6 +89,10 @@ async function jdPlantBean() {
   try {
     console.log(`获取任务及基本信息`)
     await plantBeanIndex();
+    if ($.plantBeanIndexResult.errorCode === 'PB101') {
+      console.log(`\n活动太火爆了，还是去买买买吧！\n`)
+      return
+    }
     for (let i = 0; i < $.plantBeanIndexResult.data.roundList.length; i++) {
       if ($.plantBeanIndexResult.data.roundList[i].roundState === "2") {
         num = i
@@ -111,7 +115,7 @@ async function jdPlantBean() {
       await receiveNutrients();//定时领取营养液
       await doHelp();//助力
       await doTask();//做日常任务
-      await doEgg();
+      // await doEgg();
       await stealFriendWater();
       await doCultureBean();
       await doGetReward();
