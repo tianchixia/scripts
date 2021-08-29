@@ -33,7 +33,7 @@ let cookiesArr = []
             exchange(cookie,amount,pt_pin)
         }
     }
-    await $.wait(3000)
+    await $.wait(2000)
 })()
 function exchange(cookie,amount,pt_pin) {
     body = ""
