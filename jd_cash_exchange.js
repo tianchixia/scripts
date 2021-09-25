@@ -7,8 +7,7 @@ const $ = new Env("签到领现金兑换A")
 const ua = `jdltapp;iPhone;3.1.0;${Math.ceil(Math.random()*4+10)}.${Math.ceil(Math.random()*4)};${randomString(40)}`
 let cookiesArr = []
 let exchangeAccounts = {
-     "zhanxiachi": 10,//两元
-     "wdNMhNkhpbxadIq": 10,//两元
+     "zhanxiachi": 8,//几元
  }
 
 !(async () => {
