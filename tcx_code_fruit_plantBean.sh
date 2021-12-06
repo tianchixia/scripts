@@ -14,8 +14,8 @@ var_name=(
 )
 
 name_js=(
-  shufflewzc_faker2/jd_fruit
-  shufflewzc_faker2/jd_plantBean
+  shufflewzc_faker2_jd_fruit
+  shufflewzc_faker2_jd_plantBean
 )
 
 name_config=(
