@@ -75,9 +75,9 @@ async function perl_auto() {
         if (prize.dwState == 3) {
           flag = false
           console.log(strPrizeName, '已兑换过')
-        }else if (!prize.strPrizeName || prize.ddwVirHb <= (process.env.ddwVirHb || 1) * 100) {
+        }else if (!prize.strPrizeName || prize.ddwVirHb <= (process.env.ddwVirHb || 0.1) * 100) {
           flag = false
-          console.log(strPrizeName, '不大于', (process.env.ddwVirHb || 0.1), '元 过滤')
+          console.log(strPrizeName, '不大于', (process.env.ddwVirHb || 1), '元 过滤')
         } else if (prize.dwState == 1) {
           console.log(strPrizeName, '当前缺货,但依然兑换.')
         } else {
