@@ -145,21 +145,7 @@ async function cfd() {
     await composePearlState(2)
 
     //合成月饼
-    let count = $.isNode() ? (process.env.JD_CFD_RUNNUM ? process.env.JD_CFD_RUNNUM * 1 : Math.floor((Math.random() * 2)) + 3) : ($.getdata('JD_CFD_RUNNUM') ? $.getdata('JD_CFD_RUNNUM') * 1 : Math.floor((Math.random() * 2)) + 3);
-    console.log(`\n合成月饼`)
-    console.log(`合成月饼运行次数为：${count}\n`)
-    let num = 0
-    do {
-      await $.wait(2000)
-      await composePearlState(3)
-      num++
-    } while (!$.stop && num < count)
-
-  } catch (e) {
-    $.logErr(e)
-  }
-}
-
+    
 // 合成月饼
 async function composePearlState(type) {
   return new Promise(async (resolve) => {
