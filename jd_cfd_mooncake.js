@@ -204,7 +204,7 @@ async function composePearlState(type) {
                   let num = data.PearlList.length
                   let div = Math.ceil(Math.random() * 4 + 2)
                   console.log(`合成月饼：模拟操作${num}次`)
-                  for (let v = 97; v < num; v++) {
+                  for (let v = 99; v < num; v++) {
                     console.log(`模拟操作进度：${v + 1}/${num}`)
                     let beacon = data.PearlList[0]
                     data.PearlList.shift()
