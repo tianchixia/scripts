@@ -180,12 +180,6 @@ async function composePearlState(type) {
               break
             case 3:
               data = JSON.parse(data.replace(/\n/g, "").match(new RegExp(/jsonpCBK.?\((.*);*\)/))[1]);
-              if (data.iRet === 0) {
-                console.log(`当前已合成${data.dwCurProgress}颗月饼，总计获得${data.ddwVirHb / 100}元红包`)
-                if (data.strDT) {
-              break
-            case 4:
-              data = JSON.parse(data.replace(/\n/g, "").match(new RegExp(/jsonpCBK.?\((.*);*\)/))[1]);
               console.log(`每日抽奖`)
               if (data.iRet === 0) {
                 if (data.dayDrawInfo.dwIsDraw === 0) {
